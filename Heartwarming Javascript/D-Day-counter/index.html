@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>D-DAY</h1>
+    <div id="d-day-count">
+      <div class="d-day-child-continer">
+        <span id="days">0</span>
+        <span>일</span>
+      </div>
+
+      <div class="d-day-child-continer">
+        <span id="hours">0</span>
+        <span>시간</span>
+      </div>
+
+      <div class="d-day-child-continer">
+        <span id="min">0</span>
+        <span>분</span>
+      </div>
+
+      <div class="d-day-child-continer">
+        <span id="sec">0</span>
+        <span>초</span>
+      </div>
+    </div>
+    <div class="target-selector-container">
+      <div id="target-selector">
+        <input
+          type="text"
+          id="target-year-input"
+          class="target-input"
+          size="3"
+        />
+        -
+        <input
+          type="text"
+          id="target-month-input"
+          class="target-input"
+          size="3"
+        />
+        -
+        <input
+          type="text"
+          id="target-date-input"
+          class="target-input"
+          size="3"
+        />
+      </div>
+      <div id="D-DAY-message"></div>
+      <button onclick="starter()" id="start-btn">카운트다운 시작</button>
+      <button onclick="resetTimer()" id="start-btn">타이머 초기화</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#d-day-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 30px;
+}
+
+.d-day-child-continer {
+  display: flex;
+  margin: 10px;
+  font-weight: 550;
+}
+
+#target-selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.target-selector-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#start-btn {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px;
+}
